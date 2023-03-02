@@ -32,23 +32,13 @@ div.center-img {
 div.flex-image {
   justify-content: space-around;
 }
-section {
+.flex-container {
   display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-section,
-div.test {
-  justify-content: end;
-  flex-direction: column;
-}
-
-div,
-img.test {
-  display: flex;
-  justify-content: start;
-  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-around;
+  /* align-items: center;
+  justify-content: flex-end;
+  flex-direction: column; */
 }
 footer {
   height: 100px;
